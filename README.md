@@ -6,6 +6,12 @@ In the AnalysisJupyterNotebook folder, we have a Jupyter Notebook performing the
 
 In the second folder, we have the Django project corresponding to the API. It was executed under the Python virtual environment, built under Pycharm. It is functional and has been tested several times under Postman.
 
+Instructions : 
+ * install requirements : pip install -r requirements.txt
+ * virtual environment : venv\Scripts\activate
+ * run server : python manage.py runserver
+ * Postman
+
 For any future use of this API, the variables to enter in Postman are as follows:
  * name (player name)
  * gp (number of games played)
@@ -22,4 +28,4 @@ For any future use of this API, the variables to enter in Postman are as follows
  * blk (blocks)
  * tov (turnovers)
 
-All of these values ​​are floats.
+All of these values are floats.
